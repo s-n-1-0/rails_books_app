@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root "hello#index"
+  get 'amazon_books/convert'
+  resources :amazon_books
 end
