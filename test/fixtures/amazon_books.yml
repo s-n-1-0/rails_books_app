@@ -1,9 +1,0 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  asin: MyString1
-  isbn13: MyString
-
-two:
-  asin: MyString2
-  isbn13: MyString

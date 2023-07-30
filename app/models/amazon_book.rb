@@ -1,2 +1,0 @@
-class AmazonBook < ApplicationRecord
-end
