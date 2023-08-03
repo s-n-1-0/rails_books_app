@@ -1,3 +1,6 @@
+### Windowsでpgがインストールできない場合
++ https://qiita.com/inatsuhiko/items/6f00668f601a355da50a
+
 # Codespaces ♥️ Railsチュートリアル
 
 本リポジトリは[Railsチュートリアル](https://railstutorial.jp/)の [GitHub Codespaces](https://github.co.jp/features/codespaces) 用テンプレートです。2022年11月に公開された[GitHub公式のRailsテンプレート](https://github.com/github/codespaces-rails)を、[Railsチュートリアル](https://railstutorial.jp)用にカスタマイズしたものです。
