@@ -24,5 +24,10 @@ class KindleTest < ActiveSupport::TestCase
       scrapingObj = AmazonScraping.new()
       id = scrapingObj.searchPaperAsin("B00IRVRZWA")
       assert id == nil
-      end
+   end
+   test "存在しないASIN" do 
+      scrapingObj = AmazonScraping.new()
+      id = scrapingObj.searchPaperAsin("B0cript>11")
+      assert id == nil
+   end
 end

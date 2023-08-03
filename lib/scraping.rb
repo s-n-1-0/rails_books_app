@@ -2,9 +2,12 @@ class AmazonScraping
     def searchPaperAsin(kindle_asin)
       paper_asin = nil
       agent = Mechanize.new
-      page = agent.get("https://www.amazon.co.jp/dp/"+kindle_asin)
+      begin #NOTE: 404時強制終了されないけど503エラーに気づけない...
+         page = agent.get("https://www.amazon.co.jp/dp/"+kindle_asin)
+      rescue
+         return paper_asin
+      end
       ellist = page.search("#tmmSwatches")
-      ak = nil
       if ellist.length > 0 then
          alist = ellist[0].search("a")
          asin_list = alist.map{|el|
