@@ -1,9 +1,9 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  kindle_asin: MyString1
-  paper_asin: MyString
+onepiece106:
+  kindle_asin: B0C6993WBQ
+  paper_asin: 4088836448
 
-two:
-  kindle_asin: MyString2
-  paper_asin: MyString
+x:
+  kindle_asin: B086WV9GBT
+  paper_asin: 4163238603
