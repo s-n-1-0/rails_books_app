@@ -1,3 +1,8 @@
+Railsチュートリアルで作ってみたASIN(Kindle)→ASIN(紙)変換。  
+とりあえずスクレイピングで無理やり取る方法にしたので実際には使用できない。
+
+---
+
 ### Windowsでpgがインストールできない場合
 + https://qiita.com/inatsuhiko/items/6f00668f601a355da50a
 
